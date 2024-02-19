@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mathe/OneDrive/%C3%81rea%20de%20Trabalho/Pratica%20MLOPS/mlruns/0/c281c2e5dc9b4fc29e9ba892597fe51c/artifacts
+end_time: 1708355910864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c281c2e5dc9b4fc29e9ba892597fe51c
+run_name: experimento_mlops_msouza
+run_uuid: c281c2e5dc9b4fc29e9ba892597fe51c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708355909753
+status: 3
+tags: []
+user_id: mathe
