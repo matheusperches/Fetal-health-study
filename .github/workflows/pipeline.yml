@@ -76,7 +76,7 @@ jobs:
 
           - name: Train Model
             run: |
-              python train.py 
+              python train_notebook.py
 
   build_image:
     runs-on: ubuntu-latest
