@@ -2,9 +2,7 @@ import pandas as pd
 import pytest
 from tensorflow.keras.models import Sequential
 
-from train_notebook import (read_data,
-                   create_model,
-                   train_model)
+from train_notebook import (read_data, create_model, train_model)
 
 
 @pytest.fixture
