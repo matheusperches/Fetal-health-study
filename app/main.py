@@ -30,9 +30,9 @@ app = FastAPI(title="Fetal Health API",
 
 def load_model():
     print('reading model...')
-    mlflow_tracking_uri = 'https://dagshub.com/renansantosmendes/mlops-ead.mlflow'
-    mlflow_tracking_username = 'renansantosmendes'
-    mlflow_tracking_password = '' # missing access tokens
+    mlflow_tracking_uri = 'https://dagshub.com/matheusperches/mlops-ead-experimentos.mlflow'
+    mlflow_tracking_username = 'matheusperches'
+    mlflow_tracking_password = '2729db17bcd0f4f9e72aacd86945d7374be88fda'
     os.environ['mlflow_tracking_username'] = mlflow_tracking_username
     os.environ['mlflow_tracking_password'] = mlflow_tracking_password
     print('setting mlflow...')
@@ -40,7 +40,7 @@ def load_model():
     print('Creating client...')
     client = mlflow.MlflowClient(tracking_uri=mlflow_tracking_uri)
     print('getting the registered model')
-    registered_model = client.get_registered_model('MODEL_NAME')
+    registered_model = client.get_registered_model('Fetal_Health_estudo')
     print('reading model...')
     run_id = registered_model.latest_versions[-1].run_id
     logged_model = f'runs:/{run_id}/model'
