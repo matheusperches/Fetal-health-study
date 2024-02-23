@@ -26,7 +26,7 @@ def reset_seeds():
 
 
 def read_data():
-    data = pd.read_csv('https://raw.githubusercontent.com/renansantosmendes/lectures-cdas-2023/master/fetal_health_reduced.csv')
+    data = pd.read_csv('https://raw.githubusercontent.com/matheusperches/ML-training-Study/main/fetal_health_reduced.csv')
     X = data.drop(["fetal_health"], axis=1)
     y = data["fetal_health"]
     return X,y
@@ -62,9 +62,9 @@ def create_model(x):
 
 
 def config_mlflow():
-    os.environ['MLFLOW_TRACKING_USERNAME'] = 'renansantosmendes'
-    os.environ['MLFLOW_TRACKING_PASSWORD'] = '6d730ef4a90b1caf28fbb01e5748f0874fda6077'
-    mlflow.set_tracking_uri('https://dagshub.com/renansantosmendes/mlops-ead.mlflow')
+    os.environ['MLFLOW_TRACKING_USERNAME'] = 'matheusperches'
+    os.environ['MLFLOW_TRACKING_PASSWORD'] = '2729db17bcd0f4f9e72aacd86945d7374be88fda'
+    mlflow.set_tracking_uri('https://dagshub.com/matheusperches/mlops-ead-experimentos.mlflow')
 
     mlflow.tensorflow.autolog(log_models=True,
                               log_input_examples=True,
