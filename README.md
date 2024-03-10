@@ -7,7 +7,7 @@
 #### A study on Fetal Health. 
 
 #### Background
-This prroject was part of my Software Architecture course and I followed along while creating this project and training the models. I decided to add this specific project due to my interest in the health department with Machine Learning algorithms.
+This project was part of my Software Architecture course and I followed along while creating this project and training the models. I decided to add this specific project due to my interest in the health department with Machine Learning algorithms.
 
 This project includes a prediction model for fetal health based on user fed parameters.
 
