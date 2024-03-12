@@ -4,7 +4,7 @@
 
 ## [Fetal-Health-Study](https://github.com/matheusperches/Fetal-health-study)
 
-#### A study on Fetal Health. 
+#### A ML model to predict Fetal Health. 
 
 #### Background
 This project was part of my Software Architecture course and I followed along while creating this project and training the models. I decided to add this specific project due to my interest in the health department with Machine Learning algorithms.
